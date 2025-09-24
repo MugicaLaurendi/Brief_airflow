@@ -1,3 +1,9 @@
 data
+data_exploration
+logs
+.env
+venv
 warehouse
 exports
+exploration_duckdb.db
+exploration_duckdb.db.wal

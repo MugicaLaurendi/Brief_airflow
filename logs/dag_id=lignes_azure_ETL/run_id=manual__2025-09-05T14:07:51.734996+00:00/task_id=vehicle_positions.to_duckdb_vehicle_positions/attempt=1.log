@@ -1,0 +1,42 @@
+{"timestamp":"2025-09-05T14:07:55.675055","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-05T14:07:55.675640","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lignes_azure_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-05T14:07:55.735625Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.735801Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.735929Z","level":"info","event":"Current task name:vehicle_positions.to_duckdb_vehicle_positions","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.735997Z","level":"info","event":"Dag name:lignes_azure_ETL","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.763713Z","level":"info","event":"--------------- RETURN SELECT ------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767449Z","level":"info","event":"┌───────────────────┬──────────────────────┬──────────┬───┬─────────┬────────────┬─────────┬────────────┐","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767610Z","level":"info","event":"│     entity_id     │       trip_id        │ route_id │ … │ bearing │ timestamp  │ stop_id │ vehicle_id │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767705Z","level":"info","event":"│      varchar      │       varchar        │ varchar  │   │ double  │   int64    │ varchar │  varchar   │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767762Z","level":"info","event":"├───────────────────┼──────────────────────┼──────────┼───┼─────────┼────────────┼─────────┼────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767807Z","level":"info","event":"│ vehicle:RLA625    │ 6409624-57_A_50_57…  │ 57       │ … │   206.0 │ 1757081273 │ 873     │ RLA625     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767847Z","level":"info","event":"│ vehicle:RLA609    │ 6409638-57_R_99_57…  │ 57       │ … │   279.0 │ 1757081273 │ 2826    │ RLA609     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767887Z","level":"info","event":"│ vehicle:SUM1746   │ 6218550-84_R_99_84…  │ 84       │ … │   137.0 │ 1757072913 │ 1183    │ SUM1746    │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767925Z","level":"info","event":"│ vehicle:SUM1754   │ 6218523-84_A_50_84…  │ 84       │ … │   196.0 │ 1757081273 │ 8150    │ SUM1754    │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767963Z","level":"info","event":"│ vehicle:RLA318    │ 6429283-15_R_99_15…  │ 15       │ … │   294.0 │ 1757081270 │ 463     │ RLA318     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768001Z","level":"info","event":"│ vehicle:RLA368    │ 6446565-05_A_98_05…  │ 05       │ … │    49.0 │ 1757081270 │ 44      │ RLA368     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768040Z","level":"info","event":"│ vehicle:RLA465    │ 6414310-07_R_97_07…  │ 07       │ … │    11.0 │ 1757081273 │ 2870    │ RLA465     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768078Z","level":"info","event":"│ vehicle:SUM1748   │ 4603457-83_R_1_830…  │ 83       │ … │   182.0 │ 1757081273 │ 8003    │ SUM1748    │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768151Z","level":"info","event":"│ vehicle:PDV41     │ 6420036-77_A_50_77…  │ 77       │ … │    36.0 │ 1757081273 │ 2719    │ PDV41      │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768201Z","level":"info","event":"│ vehicle:PDV86     │ 5838888-22_R_95_22…  │ 22       │ … │    36.0 │ 1757081270 │ 21257   │ PDV86      │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768241Z","level":"info","event":"│       ·           │          ·           │ ·        │ · │      ·  │      ·     │  ·      │   ·        │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768279Z","level":"info","event":"│       ·           │          ·           │ ·        │ · │      ·  │      ·     │  ·      │   ·        │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768318Z","level":"info","event":"│       ·           │          ·           │ ·        │ · │      ·  │      ·     │  ·      │   ·        │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768356Z","level":"info","event":"│ vehicle:SUM1752   │ 6420065-86_A_50_86…  │ 86       │ … │   247.0 │ 1757081273 │ 7051    │ SUM1752    │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768393Z","level":"info","event":"│ vehicle:RLA616    │ 6355840-18_A_50_18…  │ 18       │ … │     7.0 │ 1757081270 │ 1250    │ RLA616     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768430Z","level":"info","event":"│ vehicle:PDV94     │ 5838875-22_A_45_22…  │ 22       │ … │   355.0 │ 1757075810 │ 21257   │ PDV94      │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768467Z","level":"info","event":"│ vehicle:RLA42     │ 6413118-38_A_50_38…  │ 38       │ … │    84.0 │ 1757081270 │ 14      │ RLA42      │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768505Z","level":"info","event":"│ vehicle:RLA372    │ 6252450-11_R_98_11…  │ 11       │ … │   189.0 │ 1757081273 │ 219     │ RLA372     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768542Z","level":"info","event":"│ vehicle:PDV109    │ 6257283-59_A_45_59…  │ 59       │ … │    14.0 │ 1757080416 │ 1277    │ PDV109     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768583Z","level":"info","event":"│ vehicle:RLA157    │ 6424104-16_A_50_16…  │ 16       │ … │   321.0 │ 1757081270 │ 706     │ RLA157     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768622Z","level":"info","event":"│ vehicle:RLA605    │ 6409623-57_A_50_57…  │ 57       │ … │   348.0 │ 1757081273 │ 1061    │ RLA605     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768660Z","level":"info","event":"│ vehicle:TCA117298 │ 6412291-71_A_50_71…  │ 71       │ … │     1.0 │ 1757081270 │ 1316    │ TCA117298  │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768697Z","level":"info","event":"│ vehicle:TCA108185 │ 6140114-41_A_5_410…  │ 41       │ … │   173.0 │ 1757081273 │ 4147    │ TCA108185  │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768798Z","level":"info","event":"├───────────────────┴──────────────────────┴──────────┴───┴─────────┴────────────┴─────────┴────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.768908Z","level":"info","event":"│ 374 rows (20 shown)                                                               9 columns (7 shown) │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.769014Z","level":"info","event":"└───────────────────────────────────────────────────────────────────────────────────────────────────────┘","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.769097Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.767584","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-05T14:07:55.785038Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.785237Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:07:55.785351Z","level":"info","event":"Task operator:<Task(PythonOperator): vehicle_positions.to_duckdb_vehicle_positions>","chan":"stdout","logger":"task"}

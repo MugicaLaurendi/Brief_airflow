@@ -1,0 +1,11 @@
+{"timestamp":"2025-09-08T13:09:17.745166","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T13:09:17.745941","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lignes_azure_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T13:09:17.811055Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:09:17.811308Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:09:17.811626Z","level":"info","event":"Current task name:vehicle_positions.parse_vehicle_positions","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:09:17.811743Z","level":"info","event":"Dag name:lignes_azure_ETL","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:09:17.814966Z","level":"info","event":"parsing ok/opt/airflow/data/vehicle_positions_parsed.pkl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:09:17.815044","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T13:09:17.829704Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:09:17.829890Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:09:17.830137Z","level":"info","event":"Task operator:<Task(PythonOperator): vehicle_positions.parse_vehicle_positions>","chan":"stdout","logger":"task"}

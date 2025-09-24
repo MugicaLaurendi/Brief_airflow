@@ -1,0 +1,11 @@
+{"timestamp":"2025-09-19T07:03:13.286830","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-19T07:03:13.287344","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lignes_azure_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-19T07:03:13.371185Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T07:03:13.371350Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T07:03:13.371462Z","level":"info","event":"Current task name:remove_duckdb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T07:03:13.371526Z","level":"info","event":"Dag name:lignes_azure_ETL","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T07:03:13.379856Z","level":"info","event":"-------  DUCK DATABASE REMOVED --------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T07:03:13.380332","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-19T07:03:13.397788Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T07:03:13.397947Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T07:03:13.398094Z","level":"info","event":"Task operator:<Task(PythonOperator): remove_duckdb>","chan":"stdout","logger":"task"}

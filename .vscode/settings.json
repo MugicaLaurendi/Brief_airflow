@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "name": "connection",
+            "database": "${workspaceFolder:airflow-gtfs-duckdb}/exploration_duckdb.db"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{"timestamp":"2025-09-05T07:12:58.832095","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-05T07:12:58.833424","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/gtfs_rt_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-05T07:12:58.905462Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:12:58.905677Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:12:58.905795Z","level":"info","event":"Current task name:extraction","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:12:58.905935Z","level":"info","event":"Dag name:GTFS-RT_trip_update","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:12:59.186447","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-05T07:12:59.211844Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:12:59.212042Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:12:59.212247Z","level":"info","event":"Task operator:<Task(PythonOperator): extraction>","chan":"stdout","logger":"task"}

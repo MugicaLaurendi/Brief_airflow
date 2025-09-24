@@ -1,0 +1,11 @@
+{"timestamp":"2025-09-05T14:01:46.416925","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-05T14:01:46.417366","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lignes_azure_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-05T14:01:46.475533Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:01:46.475687Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:01:46.475784Z","level":"info","event":"Current task name:trips_updates.parse_trip_updates","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:01:46.475836Z","level":"info","event":"Dag name:trip_updates_to_duckdb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:01:46.554004Z","level":"info","event":"parsing ok/opt/airflow/data/trip_updates_parsed.pkl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:01:46.555901","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-05T14:01:46.575336Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:01:46.575479Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T14:01:46.575718Z","level":"info","event":"Task operator:<Task(PythonOperator): trips_updates.parse_trip_updates>","chan":"stdout","logger":"task"}

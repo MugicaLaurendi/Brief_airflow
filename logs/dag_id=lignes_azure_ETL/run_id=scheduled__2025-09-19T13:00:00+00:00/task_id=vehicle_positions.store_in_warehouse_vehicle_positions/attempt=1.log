@@ -1,0 +1,11 @@
+{"timestamp":"2025-09-19T13:00:06.772615","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-19T13:00:06.773850","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lignes_azure_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-19T13:00:06.936819Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T13:00:06.937089Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T13:00:06.938497Z","level":"info","event":"Current task name:vehicle_positions.store_in_warehouse_vehicle_positions","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T13:00:06.938835Z","level":"info","event":"Dag name:lignes_azure_ETL","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T13:00:06.972571Z","level":"info","event":"#### csv created and stored in : /opt/airflow/warehouse/vehicle_positions_2025-09-19_15:00:06.954279.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T13:00:06.973746","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-19T13:00:07.005618Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T13:00:07.005886Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-19T13:00:07.006267Z","level":"info","event":"Task operator:<Task(PythonOperator): vehicle_positions.store_in_warehouse_vehicle_positions>","chan":"stdout","logger":"task"}

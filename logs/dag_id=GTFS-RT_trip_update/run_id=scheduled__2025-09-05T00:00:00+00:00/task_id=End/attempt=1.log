@@ -1,0 +1,15 @@
+{"timestamp":"2025-09-05T07:13:00.021820","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-05T07:13:00.022442","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/gtfs_rt_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-05T07:13:00.088803Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:13:00.089009Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:13:00.089152Z","level":"info","event":"Current task name:End","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:13:00.089220Z","level":"info","event":"Dag name:GTFS-RT_trip_update","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:13:00.090352","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-09-05T07:13:00.091754","level":"info","event":"Running command: ['/usr/bin/bash', '-c', \"echo 'Dag is ended'\"]","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-09-05T07:13:00.110509","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-09-05T07:13:00.112691","level":"info","event":"Dag is ended","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-09-05T07:13:00.113116","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-09-05T07:13:00.113913","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019918b8-713c-7729-a6ae-4c7f705837f4'), task_id='End', dag_id='GTFS-RT_trip_update', run_id='scheduled__2025-09-05T00:00:00+00:00', try_number=1, map_index=-1, hostname='3aad25eda530', context_carrier={}, task=<Task(BashOperator): End>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 9, 5, 7, 12, 59, 390965, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/GTFS-RT_trip_update/runs/scheduled__2025-09-05T00%3A00%3A00%2B00%3A00/tasks/End?try_number=1')","logger":"task"}
+{"timestamp":"2025-09-05T07:13:00.150993Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:13:00.151308Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-05T07:13:00.151726Z","level":"info","event":"Task operator:<Task(BashOperator): End>","chan":"stdout","logger":"task"}

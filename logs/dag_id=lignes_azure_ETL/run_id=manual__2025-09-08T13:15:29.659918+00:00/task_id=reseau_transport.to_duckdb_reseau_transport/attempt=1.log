@@ -1,0 +1,234 @@
+{"timestamp":"2025-09-08T13:15:33.783352","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T13:15:33.784023","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lignes_azure_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T13:15:33.870184Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.870348Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.870476Z","level":"info","event":"Current task name:reseau_transport.to_duckdb_reseau_transport","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.870529Z","level":"info","event":"Dag name:lignes_azure_ETL","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.978478Z","level":"info","event":"--------------- RETURN SELECT ------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996273Z","level":"info","event":"┌──────────────┬───────────┬──────────────────────┬───┬────────────────┬───────────────┬─────────────────────┐","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996457Z","level":"info","event":"│   stop_id    │ stop_code │      stop_name       │ … │ parent_station │ stop_timezone │ wheelchair_boarding │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996526Z","level":"info","event":"│   varchar    │  varchar  │       varchar        │   │    varchar     │    varchar    │        int64        │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996588Z","level":"info","event":"├──────────────┼───────────┼──────────────────────┼───┼────────────────┼───────────────┼─────────────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996636Z","level":"info","event":"│ 1            │ ABBAT8    │ Abattoirs            │ … │ place_101376   │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996683Z","level":"info","event":"│ 2            │ ABBAT4    │ Abattoirs            │ … │ place_101376   │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996729Z","level":"info","event":"│ 3            │ ROSEL2    │ Abbaye de Roseland   │ … │ place_096609   │ NULL          │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996774Z","level":"info","event":"│ 4            │ ROSEL8    │ Abbaye de Roseland   │ … │ place_096609   │ NULL          │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996821Z","level":"info","event":"│ 5            │ ARSE4     │ Abbaye de Roseland…  │ … │ place_096610   │ NULL          │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996875Z","level":"info","event":"│ 6            │ ACROB6    │ Risso                │ … │ place_096612   │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996938Z","level":"info","event":"│ 8            │ AEPRM1    │ Aéroport / Promenade │ … │ place_101377   │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.996979Z","level":"info","event":"│ 11           │ AEPRM2    │ Aéroport / Promenade │ … │ place_101377   │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997057Z","level":"info","event":"│ 12           │ ALBER3    │ Albert 1er           │ … │ place_096616   │ NULL          │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997143Z","level":"info","event":"│ 13           │ ALBER8    │ Jardin d'Arménie     │ … │ place_096617   │ NULL          │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997195Z","level":"info","event":"│ ·            │  ·        │      ·               │ · │  ·             │  ·            │                   · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997258Z","level":"info","event":"│ ·            │  ·        │      ·               │ · │  ·             │  ·            │                   · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997314Z","level":"info","event":"│ ·            │  ·        │      ·               │ · │  ·             │  ·            │                   · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997387Z","level":"info","event":"│ place_SMGEN  │ NULL      │ Gendarmerie          │ … │ NULL           │ Europe/Paris  │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997468Z","level":"info","event":"│ place_SMPMA7 │ NULL      │ Pont Maïssa          │ … │ NULL           │ Europe/Paris  │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997572Z","level":"info","event":"│ 6198         │ SMGEN8    │ Gendarmerie          │ … │ place_SMGEN    │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997692Z","level":"info","event":"│ 21313        │ GENDA3    │ Gendarmerie          │ … │ place_GENDAR   │ NULL          │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997774Z","level":"info","event":"│ 6197         │ SMPMA7    │ Pont Maïssa          │ … │ place_SMPMA7   │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.997877Z","level":"info","event":"│ place_VACHRI │ NULL      │ La Vacherie          │ … │ NULL           │ Europe/Paris  │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.998028Z","level":"info","event":"│ 23020        │ VACHRI    │ La Vacherie          │ … │ place_VACHRI   │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.998189Z","level":"info","event":"│ 21659        │ SUPGA9    │ Super Gattières      │ … │ NULL           │ Europe/Paris  │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.998321Z","level":"info","event":"│ place_ALPHA0 │ NULL      │ Parc Alpha Loup      │ … │ NULL           │ Europe/Paris  │                   0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.998426Z","level":"info","event":"│ 2997         │ MAGNA1    │ Magnan               │ … │ place_097192   │ NULL          │                   1 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.998667Z","level":"info","event":"├──────────────┴───────────┴──────────────────────┴───┴────────────────┴───────────────┴─────────────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.998872Z","level":"info","event":"│ 8970 rows (20 shown)                                                                  10 columns (6 shown) │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.999006Z","level":"info","event":"└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:33.999124Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.009481Z","level":"info","event":"--------------- RETURN SELECT ------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.013446Z","level":"info","event":"┌──────────┬───────────────┬──────────────────┬───┬──────────────────────┬─────────────┬──────────────────┐","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.013709Z","level":"info","event":"│ route_id │   agency_id   │ route_short_name │ … │      route_url       │ route_color │ route_text_color │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.013820Z","level":"info","event":"│ varchar  │    varchar    │     varchar      │   │       varchar        │   varchar   │     varchar      │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.013914Z","level":"info","event":"├──────────┼───────────────┼──────────────────┼───┼──────────────────────┼─────────────┼──────────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014002Z","level":"info","event":"│ 05       │ lignes-d-azur │ 05               │ … │ https://ftp.lignes…  │ 3065AF      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014256Z","level":"info","event":"│ 06       │ lignes-d-azur │ 06               │ … │ https://ftp.lignes…  │ 2FA948      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014367Z","level":"info","event":"│ 07       │ lignes-d-azur │ 07               │ … │ https://ftp.lignes…  │ 751D5D      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014448Z","level":"info","event":"│ 09       │ lignes-d-azur │ 09               │ … │ https://ftp.lignes…  │ EF7D00      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014550Z","level":"info","event":"│ 11       │ lignes-d-azur │ 11               │ … │ https://ftp.lignes…  │ 9C3F8F      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014627Z","level":"info","event":"│ 12       │ lignes-d-azur │ 12+              │ … │ https://ftp.lignes…  │ DE1381      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014767Z","level":"info","event":"│ 14       │ lignes-d-azur │ 14               │ … │ https://ftp.lignes…  │ F5A32F      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014878Z","level":"info","event":"│ 15       │ lignes-d-azur │ 15               │ … │ https://ftp.lignes…  │ 15B1AF      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.014993Z","level":"info","event":"│ 16       │ lignes-d-azur │ 16               │ … │ https://ftp.lignes…  │ 35BEEB      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015130Z","level":"info","event":"│ 17       │ lignes-d-azur │ 17               │ … │ https://ftp.lignes…  │ 418ABF      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015217Z","level":"info","event":"│ ·        │       ·       │ ·                │ · │          ·           │   ·         │   ·              │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015293Z","level":"info","event":"│ ·        │       ·       │ ·                │ · │          ·           │   ·         │   ·              │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015381Z","level":"info","event":"│ ·        │       ·       │ ·                │ · │          ·           │   ·         │   ·              │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015492Z","level":"info","event":"│ NVMA     │ lignes-d-azur │ NVMA             │ … │ https://ftp.lignes…  │ 36BEE9      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015598Z","level":"info","event":"│ NGOR     │ lignes-d-azur │ NGOR             │ … │ https://ftp.lignes…  │ 2AA137      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015696Z","level":"info","event":"│ 10       │ lignes-d-azur │ 10               │ … │ https://ftp.lignes…  │ 31A948      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015816Z","level":"info","event":"│ 08       │ lignes-d-azur │ 8+               │ … │ https://ftp.lignes…  │ FEC703      │ 000000           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.015946Z","level":"info","event":"│ 12+      │ lignes-d-azur │ 12+              │ … │ https://ftp.lignes…  │ DE1381      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016053Z","level":"info","event":"│ 8+       │ lignes-d-azur │ 8+               │ … │ https://ftp.lignes…  │ FEC703      │ 000000           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016146Z","level":"info","event":"│ B        │ lignes-d-azur │ B                │ … │ https://ftp.lignes…  │ FFDD00      │ 000000           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016243Z","level":"info","event":"│ NBOR     │ lignes-d-azur │ NBOR             │ … │ https://ftp.lignes…  │ 2AA137      │ 000000           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016329Z","level":"info","event":"│ VESU     │ lignes-d-azur │ VESU             │ … │ https://ftp.lignes…  │ 2AA137      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016417Z","level":"info","event":"│ FOOT     │ lignes-d-azur │ FOOT             │ … │ NULL                 │ 36BEE9      │ FFFFFF           │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016570Z","level":"info","event":"├──────────┴───────────────┴──────────────────┴───┴──────────────────────┴─────────────┴──────────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016639Z","level":"info","event":"│ 226 rows (20 shown)                                                                 8 columns (6 shown) │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016712Z","level":"info","event":"└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.016870Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.155150Z","level":"info","event":"--------------- RETURN SELECT ------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.170783Z","level":"info","event":"┌──────────┬──────────────────────┬──────────────────────┬───┬──────────┬──────────────────────┬───────────────┐","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.170974Z","level":"info","event":"│ route_id │      service_id      │       trip_id        │ … │ shape_id │ wheelchair_accessi…  │ bikes_allowed │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171081Z","level":"info","event":"│ varchar  │       varchar        │       varchar        │   │ varchar  │        int64         │     int64     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171152Z","level":"info","event":"├──────────┼──────────────────────┼──────────────────────┼───┼──────────┼──────────────────────┼───────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171222Z","level":"info","event":"│ 75       │ RESEAU2023-75-Dima…  │ 4962940-75_R_97_75…  │ … │ 750032   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171348Z","level":"info","event":"│ 75       │ RESEAU2023-75-Same…  │ 4962972-75_R_97_75…  │ … │ 750032   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171422Z","level":"info","event":"│ 40       │ RESEAU2023-40-Sema…  │ 4350596-40_A_50_40…  │ … │ 400009   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171525Z","level":"info","event":"│ 62       │ RESEAU2023-62-Same…  │ 4336738-62_R_98_62…  │ … │ 620015   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171638Z","level":"info","event":"│ C34      │ RESEAU2021-C34-Dim…  │ 3064040-C34_R_2_C3…  │ … │ C340002  │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171717Z","level":"info","event":"│ 62       │ RESEAU2023-62-Dima…  │ 4336785-62_R_98_62…  │ … │ 620015   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171775Z","level":"info","event":"│ 75       │ RESEAU2023-75-Dima…  │ 4962945-75_R_97_75…  │ … │ 750032   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171826Z","level":"info","event":"│ 40       │ RESEAU2023-40-Sema…  │ 4350598-40_A_50_40…  │ … │ 400009   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171897Z","level":"info","event":"│ 40       │ RESEAU2023-40-Sema…  │ 4350594-40_R_99_40…  │ … │ 400010   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.171959Z","level":"info","event":"│ 75       │ RESEAU2023-75-Dima…  │ 4962943-75_R_97_75…  │ … │ 750032   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172030Z","level":"info","event":"│ ·        │          ·           │          ·           │ · │   ·      │                    · │             · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172085Z","level":"info","event":"│ ·        │          ·           │          ·           │ · │   ·      │                    · │             · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172161Z","level":"info","event":"│ ·        │          ·           │          ·           │ · │   ·      │                    · │             · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172224Z","level":"info","event":"│ 10       │ SETP2025-10-Samedi…  │ 6435967-10_A_5_060…  │ … │ 100005   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172303Z","level":"info","event":"│ 10       │ SETP2025-10-Samedi…  │ 6435974-10_R_2_060…  │ … │ 100002   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172384Z","level":"info","event":"│ 10       │ SETP2025-10-Samedi…  │ 6435975-10_R_2_060…  │ … │ 100002   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172481Z","level":"info","event":"│ 12+      │ chouette:TimeTable…  │ 6252788-12_R_99_12…  │ … │ 120081   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172547Z","level":"info","event":"│ 12+      │ chouette:TimeTable…  │ 6252789-12_R_99_12…  │ … │ 120081   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172637Z","level":"info","event":"│ 12+      │ chouette:TimeTable…  │ 6252790-12_A_50_12…  │ … │ 120080   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172719Z","level":"info","event":"│ 10       │ SETP2025-10-Samedi…  │ 6435986-10_R_2_060…  │ … │ 100002   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172795Z","level":"info","event":"│ 33       │ SETP2025-33-Mercre…  │ 6444424-33_A_48_33…  │ … │ 330119   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172891Z","level":"info","event":"│ 10       │ SETP2025-10-Samedi…  │ 6435988-10_R_2_060…  │ … │ 100002   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.172995Z","level":"info","event":"│ 10       │ SETP2025-10-Samedi…  │ 6435989-10_R_2_060…  │ … │ 100002   │                    0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.173170Z","level":"info","event":"├──────────┴──────────────────────┴──────────────────────┴───┴──────────┴──────────────────────┴───────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.173249Z","level":"info","event":"│ ? rows (>9999 rows, 20 shown)                                                            9 columns (6 shown) │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.173315Z","level":"info","event":"└──────────────────────────────────────────────────────────────────────────────────────────────────────────────┘","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.173380Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.907005Z","level":"info","event":"--------------- RETURN SELECT ------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914020Z","level":"info","event":"┌──────────────────────────────┬──────────────┬────────────────┬─────────┬───────────────┬─────────────┬───────────────┐","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914254Z","level":"info","event":"│           trip_id            │ arrival_time │ departure_time │ stop_id │ stop_sequence │ pickup_type │ drop_off_type │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914331Z","level":"info","event":"│           varchar            │   varchar    │    varchar     │  int64  │     int64     │    int64    │     int64     │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914420Z","level":"info","event":"├──────────────────────────────┼──────────────┼────────────────┼─────────┼───────────────┼─────────────┼───────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914501Z","level":"info","event":"│ 3064029-C32_A_1_C3201_08:3…  │ 08:30:00     │ 08:30:00       │   21681 │             0 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914554Z","level":"info","event":"│ 3064029-C32_A_1_C3201_08:3…  │ 08:35:00     │ 08:35:00       │   21652 │             1 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914597Z","level":"info","event":"│ 3064029-C32_A_1_C3201_08:3…  │ 08:55:00     │ 08:55:00       │   21644 │             2 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914661Z","level":"info","event":"│ 3064029-C32_A_1_C3201_08:3…  │ 09:15:00     │ 09:15:00       │   21398 │             3 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914718Z","level":"info","event":"│ 3064030-C32_R_2_C3202_17:2…  │ 17:20:00     │ 17:20:00       │   21398 │             0 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914895Z","level":"info","event":"│ 3064030-C32_R_2_C3202_17:2…  │ 17:40:00     │ 17:40:00       │   21644 │             1 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.914987Z","level":"info","event":"│ 3064030-C32_R_2_C3202_17:2…  │ 18:00:00     │ 18:00:00       │   21652 │             2 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915068Z","level":"info","event":"│ 3064030-C32_R_2_C3202_17:2…  │ 18:05:00     │ 18:05:00       │   21681 │             3 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915142Z","level":"info","event":"│ 3064033-C32_A_1_C3202_17:0…  │ 17:00:00     │ 17:00:00       │   21681 │             0 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915215Z","level":"info","event":"│ 3064033-C32_A_1_C3202_17:0…  │ 17:05:00     │ 17:05:00       │   21652 │             1 │           2 │             2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915301Z","level":"info","event":"│              ·               │    ·         │    ·           │      ·  │             · │           · │             · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915373Z","level":"info","event":"│              ·               │    ·         │    ·           │      ·  │             · │           · │             · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915447Z","level":"info","event":"│              ·               │    ·         │    ·           │      ·  │             · │           · │             · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915511Z","level":"info","event":"│ 4669775-62_A_48_6201_13:40…  │ 14:08:00     │ 14:08:00       │    6064 │            25 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915571Z","level":"info","event":"│ 4669775-62_A_48_6201_13:40…  │ 14:09:00     │ 14:09:00       │    6021 │            26 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915620Z","level":"info","event":"│ 4669775-62_A_48_6201_13:40…  │ 14:10:00     │ 14:10:00       │    6033 │            27 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915681Z","level":"info","event":"│ 4669776-62_A_48_6203_12:40…  │ 12:40:00     │ 12:40:00       │    2828 │             0 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915742Z","level":"info","event":"│ 4669776-62_A_48_6203_12:40…  │ 12:42:00     │ 12:42:00       │    1619 │             1 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915784Z","level":"info","event":"│ 4669776-62_A_48_6203_12:40…  │ 12:44:00     │ 12:44:00       │     139 │             2 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915843Z","level":"info","event":"│ 4669776-62_A_48_6203_12:40…  │ 12:47:00     │ 12:47:00       │     144 │             3 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915909Z","level":"info","event":"│ 4669776-62_A_48_6203_12:40…  │ 12:48:00     │ 12:48:00       │    1161 │             4 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.915972Z","level":"info","event":"│ 4669776-62_A_48_6203_12:40…  │ 12:49:00     │ 12:49:00       │     265 │             5 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.916156Z","level":"info","event":"│ 4669776-62_A_48_6203_12:40…  │ 12:49:00     │ 12:49:00       │    1320 │             6 │           0 │             0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.916421Z","level":"info","event":"├──────────────────────────────┴──────────────┴────────────────┴─────────┴───────────────┴─────────────┴───────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.916530Z","level":"info","event":"│ ? rows (>9999 rows, 20 shown)                                                                              7 columns │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.916653Z","level":"info","event":"└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.916742Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.929743Z","level":"info","event":"--------------- RETURN SELECT ------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.932921Z","level":"info","event":"┌───────────────────────┬────────┬─────────┬───────────┬──────────┬────────┬──────────┬────────┬────────────┬──────────┐","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933107Z","level":"info","event":"│      service_id       │ monday │ tuesday │ wednesday │ thursday │ friday │ saturday │ sunday │ start_date │ end_date │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933179Z","level":"info","event":"│        varchar        │ int64  │  int64  │   int64   │  int64   │ int64  │  int64   │ int64  │   int64    │  int64   │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933232Z","level":"info","event":"├───────────────────────┼────────┼─────────┼───────────┼──────────┼────────┼──────────┼────────┼────────────┼──────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933278Z","level":"info","event":"│ PROJET2025-61-Semai…  │      1 │       1 │         1 │        1 │      1 │        0 │      0 │   20251020 │ 20251231 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933328Z","level":"info","event":"│ PVS2025-26-64-Semai…  │      1 │       1 │         1 │        1 │      1 │        0 │      0 │   20251020 │ 20251231 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933372Z","level":"info","event":"│ SETP2025-08-Samedi-…  │      0 │       0 │         0 │        0 │      0 │        1 │      0 │   20250907 │ 20251018 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933414Z","level":"info","event":"│ chouette:TimeTable:…  │      0 │       1 │         1 │        1 │      1 │        1 │      0 │   20250907 │ 20251018 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933499Z","level":"info","event":"│ RESEAU2023-41-Semai…  │      1 │       1 │         1 │        1 │      1 │        0 │      0 │   20251020 │ 20251231 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933543Z","level":"info","event":"│ SETP2025-06-Samedi-…  │      0 │       0 │         0 │        0 │      0 │        1 │      0 │   20250907 │ 20251227 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933584Z","level":"info","event":"│ PROJET2025-54-Samed…  │      0 │       0 │         0 │        0 │      0 │        1 │      0 │   20250907 │ 20251227 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933625Z","level":"info","event":"│ PROJET2023-47-Samed…  │      0 │       0 │         0 │        0 │      0 │        1 │      0 │   20250907 │ 20251227 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933665Z","level":"info","event":"│ SETP2025-15-Samedi-…  │      0 │       0 │         0 │        0 │      0 │        1 │      0 │   20250907 │ 20250927 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933718Z","level":"info","event":"│ PROJET2025-41-Samed…  │      0 │       0 │         0 │        0 │      0 │        1 │      0 │   20250907 │ 20251227 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933761Z","level":"info","event":"│           ·           │      · │       · │         · │        · │      · │        · │      · │       ·    │     ·    │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933801Z","level":"info","event":"│           ·           │      · │       · │         · │        · │      · │        · │      · │       ·    │     ·    │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933842Z","level":"info","event":"│           ·           │      · │       · │         · │        · │      · │        · │      · │       ·    │     ·    │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933883Z","level":"info","event":"│ RESEAU2021-K-Mercre…  │      0 │       0 │         1 │        0 │      0 │        0 │      0 │   20250910 │ 20251217 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933947Z","level":"info","event":"│ chouette:TimeTable:…  │      0 │       0 │         0 │        0 │      0 │        1 │      0 │   20250907 │ 20251018 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.933992Z","level":"info","event":"│ PROJET2025-FOOT-Sam…  │      0 │       0 │         0 │        0 │      0 │        1 │      0 │   20250907 │ 20251227 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934109Z","level":"info","event":"│ RESEAU2021-K-L-Ma-J…  │      1 │       1 │         0 │        1 │      1 │        0 │      0 │   20250908 │ 20251219 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934189Z","level":"info","event":"│ RESEAU2021-Exp3-Sem…  │      1 │       1 │         1 │        1 │      1 │        0 │      0 │   20250908 │ 20251231 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934234Z","level":"info","event":"│ RESEAU2021-C43-Sema…  │      1 │       0 │         0 │        0 │      0 │        0 │      0 │   20250908 │ 20251230 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934275Z","level":"info","event":"│ PROJET2025-744-Vend…  │      0 │       0 │         0 │        0 │      1 │        0 │      0 │   20250912 │ 20251219 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934316Z","level":"info","event":"│ PROJET2025-744-Lund…  │      1 │       0 │         0 │        0 │      0 │        0 │      0 │   20250908 │ 20251215 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934418Z","level":"info","event":"│ PROJET2025-742-Lund…  │      1 │       0 │         0 │        0 │      0 │        0 │      0 │   20250908 │ 20251215 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934469Z","level":"info","event":"│ chouette:TimeTable:…  │      0 │       1 │         1 │        1 │      1 │        1 │      0 │   20250907 │ 20251018 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934537Z","level":"info","event":"├───────────────────────┴────────┴─────────┴───────────┴──────────┴────────┴──────────┴────────┴────────────┴──────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934634Z","level":"info","event":"│ 776 rows (20 shown)                                                                                       10 columns │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934684Z","level":"info","event":"└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.934727Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.941199Z","level":"info","event":"--------------- RETURN SELECT ------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944289Z","level":"info","event":"┌─────────────────────────────────┬──────────┬────────────────┐","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944451Z","level":"info","event":"│           service_id            │   date   │ exception_type │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944530Z","level":"info","event":"│             varchar             │  int64   │     int64      │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944578Z","level":"info","event":"├─────────────────────────────────┼──────────┼────────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944623Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251103 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944795Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251104 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944865Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251105 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944936Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251106 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.944981Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251107 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945022Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251110 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945063Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251111 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945105Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251112 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945145Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251113 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945186Z","level":"info","event":"│ PROJET2025-61-Semaine-25-61     │ 20251114 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945227Z","level":"info","event":"│             ·                   │     ·    │              · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945268Z","level":"info","event":"│             ·                   │     ·    │              · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945309Z","level":"info","event":"│             ·                   │     ·    │              · │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945361Z","level":"info","event":"│ RESEAU2021-K-L-Ma-J-V-01-K      │ 20251028 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945404Z","level":"info","event":"│ RESEAU2021-K-L-Ma-J-V-01-K      │ 20251030 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945445Z","level":"info","event":"│ RESEAU2021-K-L-Ma-J-V-01-K      │ 20251031 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945486Z","level":"info","event":"│ RESEAU2021-K-L-Ma-J-V-01-K      │ 20251111 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945526Z","level":"info","event":"│ RESEAU2021-Exp3-Semaine-01-Exp3 │ 20251111 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945567Z","level":"info","event":"│ RESEAU2021-Exp3-Semaine-01-Exp3 │ 20251225 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945607Z","level":"info","event":"│ PROJET2025-744-Lundi-07-744     │ 20251020 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945647Z","level":"info","event":"│ PROJET2025-744-Lundi-07-744     │ 20251027 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945687Z","level":"info","event":"│ PROJET2025-742-Lundi-06-742     │ 20251020 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945727Z","level":"info","event":"│ PROJET2025-742-Lundi-06-742     │ 20251027 │              2 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945768Z","level":"info","event":"├─────────────────────────────────┴──────────┴────────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945810Z","level":"info","event":"│ 6152 rows (20 shown)                              3 columns │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945850Z","level":"info","event":"└─────────────────────────────────────────────────────────────┘","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:34.945890Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.140168Z","level":"info","event":"--------------- RETURN SELECT ------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.144408Z","level":"info","event":"┌──────────┬──────────────┬──────────────┬───────────────────┬─────────────────────┐","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.144561Z","level":"info","event":"│ shape_id │ shape_pt_lat │ shape_pt_lon │ shape_pt_sequence │ shape_dist_traveled │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.144658Z","level":"info","event":"│ varchar  │    double    │    double    │       int64       │       double        │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.144715Z","level":"info","event":"├──────────┼──────────────┼──────────────┼───────────────────┼─────────────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.144765Z","level":"info","event":"│ 090009   │    43.666912 │      7.12729 │                 0 │                 0.0 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.144931Z","level":"info","event":"│ 090009   │    43.666146 │     7.127847 │                 1 │               0.096 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145028Z","level":"info","event":"│ 090009   │    43.665786 │     7.128121 │                 2 │               0.142 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145122Z","level":"info","event":"│ 090009   │    43.665663 │     7.128181 │                 3 │               0.157 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145181Z","level":"info","event":"│ 090009   │    43.665541 │     7.128189 │                 4 │                0.17 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145222Z","level":"info","event":"│ 090009   │    43.665459 │     7.128166 │                 5 │               0.179 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145262Z","level":"info","event":"│ 090009   │    43.665393 │     7.128129 │                 6 │               0.187 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145302Z","level":"info","event":"│ 090009   │     43.66538 │      7.12805 │                 7 │               0.194 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145341Z","level":"info","event":"│ 090009   │     43.66538 │     7.128005 │                 8 │               0.198 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145380Z","level":"info","event":"│ 090009   │    43.665285 │     7.127922 │                 9 │                0.21 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145420Z","level":"info","event":"│   ·      │         ·    │         ·    │                 · │                  ·  │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145459Z","level":"info","event":"│   ·      │         ·    │         ·    │                 · │                  ·  │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145498Z","level":"info","event":"│   ·      │         ·    │         ·    │                 · │                  ·  │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145537Z","level":"info","event":"│ 850001   │     43.74449 │     7.317986 │               271 │                3.96 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145576Z","level":"info","event":"│ 850001   │    43.744562 │     7.318015 │               272 │               3.968 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145615Z","level":"info","event":"│ 850001   │    43.744619 │     7.318053 │               273 │               3.975 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145654Z","level":"info","event":"│ 850001   │    43.744671 │     7.318139 │               274 │               3.984 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145693Z","level":"info","event":"│ 850001   │    43.744874 │     7.318531 │               275 │               4.023 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145732Z","level":"info","event":"│ 850001   │    43.744958 │     7.318633 │               276 │               4.036 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145771Z","level":"info","event":"│ 850001   │    43.745227 │     7.319016 │               277 │               4.079 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145811Z","level":"info","event":"│ 850001   │    43.745277 │     7.319084 │               278 │               4.086 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145850Z","level":"info","event":"│ 850001   │    43.745277 │     7.319084 │               279 │               4.086 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145900Z","level":"info","event":"│ 850001   │    43.745307 │     7.319122 │               280 │               4.091 │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145941Z","level":"info","event":"├──────────┴──────────────┴──────────────┴───────────────────┴─────────────────────┤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.146116Z","level":"info","event":"│ ? rows (>9999 rows, 20 shown)                                          5 columns │","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.146205Z","level":"info","event":"└──────────────────────────────────────────────────────────────────────────────────┘","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.146263Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.145623","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T13:15:35.164373Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.164501Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:15:35.164928Z","level":"info","event":"Task operator:<Task(PythonOperator): reseau_transport.to_duckdb_reseau_transport>","chan":"stdout","logger":"task"}
